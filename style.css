@@ -16,6 +16,8 @@ header {
   position: sticky;
   top: 5px;
   z-index: 10;
+  background-color: #faf5ec;
+  margin: 0px 0px 18px 0px;
 }
 
 h1 {
@@ -69,3 +71,17 @@ button:hover {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 18px;
 }
+
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card {
+  border: 2px solid #0f766e;
+  color: #0f766e;
+  border-radius: 8px;
+  padding: 8px;
+}
+  
